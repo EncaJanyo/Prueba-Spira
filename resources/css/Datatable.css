@@ -1,0 +1,40 @@
+.dt-paging-button {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.page-link {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #52d2f2;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: #47b6d1;
+    border-color: #47b6d1;
+}
+
+.page-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.dt-paging {
+    text-align: right;
+}
+
+table.dataTable td,
+table.dataTable th {
+    text-align: center !important;
+}
+
+table.dataTable td,
+table.dataTable th {
+    vertical-align: middle;
+}
